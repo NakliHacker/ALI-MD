@@ -1,6 +1,6 @@
 {
   "name": "ALI-MD",
-  "version": "6.5.0",
+  "version": "7.0.0",
   "description": "I am ALI MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
   "website": "https://files.catbox.moe/ykdtkm.jpeg",
   "logo": "https://files.catbox.moe/2ka956.jpg",
@@ -24,7 +24,7 @@
       "value": "true",
       "required": true
     },
-    "AUTO_STATUS_VIEW": {
+    "AUTO_STATUS_VIEWS": {
       "description": "Auto mark status as seen",
       "value": "true",
       "required": true
@@ -44,19 +44,9 @@
       "value": "",
       "required": true
     },
-    "STATUS_REACTION": {
-      "description": "Emojis used for auto-like (comma separated)",
-      "value": "🖤,🎎,🎏,🎐,⚽,🧣,🌿,⛈️,🌦️,🌚,🌝,🐤,🎗️,🥇,👾,🔫,🐝,🦋,🍓,🍫,🍭,🧁,🧃,🍿,🍻,🎀,🧸,👑,〽️,😳,🍁,💀,☠️,👻,🔥,♥️,👀,🐼,🫂,🔥,🌍,✨,🌻,🪺,🐣,🍥,🍷,🥂,🍻,⛲,🎀",
-      "required": false
-    },
     "AUTO_STATUS_REPLY": {
       "description": "Reply to viewed statuses",
       "value": "false",
-      "required": false
-    },
-    "STATUS_REPLY_MSG": {
-      "description": "Custom reply text when status viewed",
-      "value": "✅️ Status Viewed by ALI-MD",
       "required": false
     },
     "MODE": {
@@ -79,7 +69,7 @@
       "value": "false",
       "required": true
     },
-    "ANTICALL": {
+    "ANTI_CALL": {
       "description": "Anti-call feature",
       "value": "false",
       "required": false
@@ -94,7 +84,7 @@
       "required": false,
       "value": "fuck, pussy, anus, idiot"
     },
-    "ANTICALL_MSG": {
+    "ANTI_CALL_MSG": {
       "description": "Message when someone calls bot",
       "value": "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ 📵*",
       "required": false
@@ -118,11 +108,6 @@
       "description": "put Bot menu picture URL",
       "value": "https://files.catbox.moe/6ku0eo.jpg",
       "required": true
-    },
-    "AUTO_AUDIO": {
-      "description": "Auto send audio reply",
-      "value": "false",
-      "required": false
     },
     "AUTO_BIO": {
       "description": "Enable auto bio update",
