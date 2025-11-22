@@ -3,7 +3,7 @@
   "version": "7.0.0",
   "description": "I am ALI MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
   "website": "https://files.catbox.moe/ykdtkm.jpeg",
-  "logo": "https://files.catbox.moe/2ka956.jpg",
+  "logo": "https://files.catbox.moe/w3k9sq.jpg",
   "keywords": ["ali-md", "Whatsapp bot", "Bot", "ALI-MD"],
   "repository": "https://github.com/ALI-INXIDE/ALI-MD",
   "success_url": "/",
@@ -106,7 +106,7 @@
     },
     "BOT_PIC": {
       "description": "put Bot menu picture URL",
-      "value": "https://files.catbox.moe/6ku0eo.jpg",
+      "value": "https://files.catbox.moe/w3k9sq.jpg",
       "required": true
     },
     "WELCOME": {
