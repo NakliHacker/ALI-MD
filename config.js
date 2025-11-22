@@ -14,7 +14,7 @@ module.exports = {
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
     STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "✅️ Status Viewed by ALI-MD", // Custom message
     MODE: process.env.MODE || "public", // Options: private, public, inbox, groups
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923197521693", // Only 1 owner number here, others add to sudo numbers
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923199471258", // Only 1 owner number here, others add to sudo numbers
     OWNER_NAME: process.env.OWNER_NAME || "𓂃ᷱ᪳𝐀ɭīī 𝐈𝐍𝅦𝐗īī𝐃𝐄^᪲᪲᪲輪", // Custom name
     PACK_AUTHOR: process.env.PACK_AUTHOR || "", // Custom
     PACK_NAME: process.env.PACK_NAME || "",
@@ -26,7 +26,7 @@ module.exports = {
     ANTI_CALL: process.env.ANTI_CALL || "false",
     ANTIBAD: process.env.ANTIBAD || "false",
     BAD_WORDS: process.env.BAD_WORDS || "fuck, pussy, anus, idiot", // Will be deleted if ANTIBAD is true
-    ANTICALL_MSG: process.env.ANTICALL_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
+    ANTI_CALL_MSG: process.env.ANTI_CALL_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     AUTO_REACT: process.env.AUTO_REACT || "false",
     OWNER_REACT: process.env.OWNER_REACT || "false",
     BOT_NAME: process.env.BOT_NAME || "𓆩ု᪳𝐀ɭīī 𝐌Ɗှ᪳𓆪", // Don't change
