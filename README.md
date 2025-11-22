@@ -56,7 +56,7 @@
 
 ### 🍃 3. REPLIT DEPLOY
 <a href="https://replit.com/~" target="_blank">
-  <img src="https://img.shields.io/badge/DEPLOY%20REPLIT-black?style=for-the-badge&logo=Replit" alt="Replit Deploy" width="150" height="28"/>
+  <img src="https://img.shields.io/badge/DEPLOY%20REPLIT-green?style=for-the-badge&logo=Replit" alt="Replit Deploy" width="150" height="28"/>
 </a>
 
 ### 🧩 4. PANEL DEPLOY
