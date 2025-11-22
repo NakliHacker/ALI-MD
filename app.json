@@ -16,7 +16,7 @@
     },
     "SUDO_NUMBERS": {
       "description": "Add multiple numbers with country code without (+), separated by comma",
-      "value": "",
+      "value": "923199471258",
       "required": false
     },
     "ANTI_DELETE": {
@@ -66,7 +66,7 @@
     },
     "ANTI_LINK": {
       "description": "Anti-link action (false/delete/warn/true)",
-      "value": "false",
+      "value": "true",
       "required": true
     },
     "ANTI_CALL": {
@@ -108,16 +108,6 @@
       "description": "put Bot menu picture URL",
       "value": "https://files.catbox.moe/6ku0eo.jpg",
       "required": true
-    },
-    "AUTO_BIO": {
-      "description": "Enable auto bio update",
-      "value": "false",
-      "required": false
-    },
-    "AUTO_BIO_QUOTE": {
-      "description": "Custom quote for auto bio",
-      "value": "ALI MD ALIVE",
-      "required": false
     },
     "WELCOME": {
       "description": "Enable welcome messages",
