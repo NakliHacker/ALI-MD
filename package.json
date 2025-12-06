@@ -1,23 +1,24 @@
 {
-  "name": "ALI-MD",
+  "name": "STARK-MD",
   "version": "7.0.0",
   "description": "NOT THE BEST BOT IN THE UNIVERSE, BUT ENJOYMENT IS PROMISING 💫",
   "main": "index.js",
   "type": "commonjs",
   "engines": {
-    "node": "20.x"
+    "npm": "11.x",
+    "node": "22.x"
   },
   "scripts": {
-    "start": "pm2 start index.js --name ALI-MD --attach",
-    "stop": "pm2 stop ALI-MD",
-    "restart": "pm2 restart ALI-MD"
+    "start": "pm2 start index.js --name STARK-MD --attach",
+    "stop": "pm2 stop STARK-MD",
+    "restart": "pm2 restart STARK-MD"
   },
   "keywords": [
-    "ALI-MD",
+    "STARK-MD",
     "whatsapp-bot",
     "baileys",
     "multi-device",
-    "ali-tech"
+    "STARK-tech"
   ],
   "author": "ALI INXIDE",
   "license": "MIT",
@@ -25,9 +26,9 @@
     "@dark-yasiya/scrap": "1.0.1",
     "@dark-yasiya/yt-dl.js": "latest",
     "@vitalets/google-translate-api": "^9.2.0",
-    "@whiskeysockets/baileys": "github:ali-sain/baileys-pro",
-    "adm-zip": "^0.5.16",
-    "axios": "^1.7.9",
+    "@whiskeysockets/baileys": "npm:gifted-baileys@2.0.0",
+    "adm-zip": "*",
+    "axios": "^1.2.5",
     "body-parser": "^1.20.3",
     "buffer": "^6.0.3",
     "canvas": "^3.0.1",
@@ -44,14 +45,14 @@
     "heroku-client": "^3.1.0",
     "isolated-vm": "^5.0.3",
     "javascript-obfuscator": "^4.1.1",
-    "jimp": "^1.6.0",
+    "jimp": "^0.22.12",
     "megajs": "^1.3.3",
     "mime-types": "^2.1.35",
     "moment-timezone": "^0.5.45",
     "node-fetch": "^3.3.2",
     "path": "^0.12.7",
-    "pino": "^9.4.0",
-    "pm2": "^6.0.8",
+    "pino": "^7.0.5",
+    "pm2": "latest",
     "puppeteer": "^23.3.2",
     "qrcode-terminal": "^0.12.0",
     "sequelize": "^6.37.5",
