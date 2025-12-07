@@ -1,7 +1,7 @@
 {
   "name": "STARK-MD",
   "version": "7.0.0",
-  "description": "I am ALI MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
+  "description": "STARK MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
   "website": "https://files.catbox.moe/ykdtkm.jpeg",
   "logo": "https://files.catbox.moe/w3k9sq.jpg",
   "keywords": ["STARK-MD", "Whatsapp bot", "Bot", "STARK-MD BOT"],
@@ -42,6 +42,21 @@
     "HEROKU_API_KEY": {
       "description": "Heroku account api key, https://dashboard.heroku.com/account",
       "value": "",
+      "required": false
+    },
+     "OWNER_NUMBER": {
+      "description": "Bot owner number",
+      "value": "923199471258",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Owner display name",
+      "value": "𓂃ᷱ᪳𝐀ɭīī 𝐈𝐍𝅦𝐗īī𝐃𝐄^᪲᪲᪲輪",
+      "required": true
+    },
+    "AUTO_STATUS_EMOJIS": {
+      "description": "Custom emojis for auto status reactions",
+      "value": "❤️,💀,🌚,🌟,🔥,🌸,🍁,🍂,🦋,🍥,🍧,🍨,🍫,🍭,🎀,🎐,🎗️,👑,🚩,🇵🇰,🍓,🍇,🧃",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
