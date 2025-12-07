@@ -1,16 +1,16 @@
 {
-  "name": "ALI-MD",
+  "name": "STARK-MD",
   "version": "7.0.0",
   "description": "I am ALI MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
   "website": "https://files.catbox.moe/ykdtkm.jpeg",
   "logo": "https://files.catbox.moe/w3k9sq.jpg",
-  "keywords": ["ali-md", "Whatsapp bot", "Bot", "ALI-MD"],
-  "repository": "https://github.com/ALI-INXIDE/ALI-MD",
+  "keywords": ["STARK-MD", "Whatsapp bot", "Bot", "STARK-MD BOT"],
+  "repository": "https://github.com/ALI-INXIDE/STARK-MD",
   "success_url": "/",
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put your Session ALI-MD~ ID here",
+      "description": "Put your Session STARK-MD~ID here",
       "value": "",
       "required": true
     },
@@ -37,12 +37,12 @@
     "HEROKU_APP_NAME": {
       "description": "heroku app name, same as above entered",
       "value": "",
-      "required": true
+      "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Heroku account api key, https://dashboard.heroku.com/account",
       "value": "",
-      "required": true
+      "required": false
     },
     "AUTO_STATUS_REPLY": {
       "description": "Reply to viewed statuses",
@@ -56,7 +56,7 @@
     },
     "PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "мα∂є ву αℓι м∂",
+      "value": "мα∂є ву ѕтαяк-м∂",
       "required": false
     },
     "PREFIX": {
@@ -101,7 +101,7 @@
     },
     "BOT_NAME": {
       "description": "Bot name display",
-      "value": "𓆩ု᪳𝐀ɭīī 𝐌𝐃ှ᪳𓆪",
+      "value": "𓆩ု᪳𝐒𝐓𝐀𝐑𝐊-𝐌𝐃ှ᪳𓆪",
       "required": true
     },
     "BOT_PIC": {
@@ -111,11 +111,6 @@
     },
     "WELCOME": {
       "description": "Enable welcome messages",
-      "value": "false",
-      "required": false
-    },
-    "AUTO_READ_MESSAGES": {
-      "description": "Auto bluetick messages (true/commands/false)",
       "value": "false",
       "required": false
     },
