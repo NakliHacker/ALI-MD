@@ -1,79 +1,93 @@
 {
-  "name": "ALI-MD",
-  "version": "6.0.0",
-  "description": "I am ALI MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
+  "name": "STARK-MD",
+  "version": "7.0.0",
+  "description": "STARK MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
   "website": "https://files.catbox.moe/ykdtkm.jpeg",
-  "logo": "https://files.catbox.moe/52699c.jpg",
-  "keywords": ["ali-md", "ali mdx","ali mdxi","ALI-MDI"],
-  "repository": "https://github.com/Mayelprince/PRINCE-MDXI",
+  "logo": "https://files.catbox.moe/w3k9sq.jpg",
+  "keywords": ["STARK-MD", "Whatsapp bot", "Bot", "STARK-MD BOT"],
+  "repository": "https://github.com/ALI-INXIDE/STARK-MD",
   "success_url": "/",
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put your session-id here. Must Start with 'ALI-MD~'",
-      "required": true,
-      "value": ""
-    },  
-    "MODE": {
-      "description": "Set Mode  to 'public' to work in all chats only, 'inbox' to work in pm(inbox) chats only or 'private' to work for you only. Default is 'public'. You can set up this later using .mode",
-      "required": false,
-      "value": "public"
-    },
-    "ANTI_DELETE": {
-      "description": "Can be set to 'inboxonly' to recover for personal chats only, 'chatsonly' to recover for groups and personal chats only or 'true' to recover all chats and status updates. Default is 'false'. You can set up this later using .antidelete",
-      "required": false,
-      "value": "inboxonly"
+      "description": "Put your Session STARK-MD~ID here",
+      "value": "",
+      "required": true
     },
     "SUDO_NUMBERS": {
-      "description": "Put Sudo Numbers separated by comma Here ie 923xxxx,923xxxxx,923xxxxx. Sudos have same rights as owner(can command the bot). if you don't want leave the space empty",
-      "required": false,
-      "value": ""
+      "description": "Add multiple numbers with country code without (+), separated by comma",
+      "value": "923199471258",
+      "required": false
     },
-    "CHAT_BOT": {
-      "description": "Put value to 'true' to enablle for all chats or 'inbox' to ebanle in pm(inbox) chats only or 'groups' to enable in groups only else false. You can set up this later using .chatbot",
-      "required": false,
-      "value": ""
+    "ANTI_DELETE": {
+      "description": "Enable anti-delete (true/false)",
+      "value": "true",
+      "required": true
     },
-    "AUTO_READ_STATUS": {
-      "description": "Make it 'true' if you want bot to view statuses. You can set up this later using .autoview",
-      "required": true,
-      "value": "true"
+    "AUTO_STATUS_VIEWS": {
+      "description": "Auto mark status as seen",
+      "value": "true",
+      "required": true
     },
-    "AUTO_LIKE_STATUS": {
-      "description": "Make it 'true' if you want bot to read and like statuses. You can set up this later using .autolike",
-      "required": false,
-      "value": "true"
+    "AUTO_STATUS_REACTS": {
+      "description": "Auto react on status",
+      "value": "true",
+      "required": false
     },
-    "AUTO_LIKE_EMOJIS": {
-      "description": "Input your custom status like emoji(s) else leave to use default emojis. Only works if autolike status is 'true'",
-      "required": false,
-      "value": "💜,💛,❤️,🤍,💙"
+    "HEROKU_APP_NAME": {
+      "description": "heroku app name, same as above entered",
+      "value": "",
+      "required": false
     },
-    "AUTO_REPLY_STATUS": {
-      "description": "Make it 'true' if you want the bot to send message after viewing status",
-      "required": false,
-      "value": "false"
+    "HEROKU_API_KEY": {
+      "description": "Heroku account api key, https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
     },
-    "STATUS_REPLY_MSG": {
-      "description": "Set your status reply message to be sent after bot views status",
-      "required": false,
-      "value": "Status Viewed ✅️"
+     "OWNER_NUMBER": {
+      "description": "Bot owner number",
+      "value": "923199471258",
+      "required": true
     },
-    "AUTO_READ_MESSAGES": {
-      "description": "Enter value to 'true' for blueticking all messages, or 'commands' for blueticking only commands else false. You can set up this later using .autoread",
-      "required": false,
-      "value": "false"
+    "OWNER_NAME": {
+      "description": "Owner display name",
+      "value": "𓂃ᷱ᪳𝐀ɭīī 𝐈𝐍𝅦𝐗īī𝐃𝐄^᪲᪲᪲輪",
+      "required": true
     },
-    "PRESENCE": {
-      "description": "Put 'online' for always online, 'typing' for always typing a message, 'recording' for always recording audio or 'null' to maintain your presence. You can set up this later using .presence",
-      "required": true,
-      "value": "online"
+    "AUTO_STATUS_EMOJIS": {
+      "description": "Custom emojis for auto status reactions",
+      "value": "❤️,💀,🌚,🌟,🔥,🌸,🍁,🍂,🦋,🍥,🍧,🍨,🍫,🍭,🎀,🎐,🎗️,👑,🚩,🇵🇰,🍓,🍇,🧃",
+      "required": false
     },
-    
-    "ANTILINK": {
-      "description": "Enter 'true' to delete links and kick the user automatically or 'delete' to delete the links without kicking the user or 'warn' to warn users 3 times before kicking them. You can set up this later using .antilink",
-      "required": false,
-      "value": "warn"
+    "AUTO_STATUS_REPLY": {
+      "description": "Reply to viewed statuses",
+      "value": "false",
+      "required": false
+    },
+    "MODE": {
+      "description": "Bot mode: public, private, inbox, groups",
+      "value": "public",
+      "required": true
+    },
+    "PACK_NAME": {
+      "description": "Sticker pack name",
+      "value": "мα∂є ву ѕтαяк-м∂",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Command prefix",
+      "value": ".",
+      "required": true
+    },
+    "ANTI_LINK": {
+      "description": "Anti-link action (false/delete/warn/true)",
+      "value": "true",
+      "required": true
+    },
+    "ANTI_CALL": {
+      "description": "Anti-call feature",
+      "value": "false",
+      "required": false
     },
     "ANTIBAD": {
       "description": "Enter 'true' to automatically delete bad words sent by users in groups. You can set up this later using .antibad",
@@ -85,52 +99,50 @@
       "required": false,
       "value": "fuck, pussy, anus, idiot"
     },
-    "AUTO_AUDIO": {
-      "description": "Put 'true' if you want the bot to automatically send audio(auto voice) in chat if you use  words such as: hi, hello, good morning, good night. You can set up this later using .autoaudio",
-      "required": false,
-      "value": "false"
-    },
-
-    "AUTO_BLOCK": {
-      "description": "Provide country codes you want the bot to automatically block",
-      "required": false,
-      "value": "333,77,12"
+    "ANTI_CALL_MSG": {
+      "description": "Message when someone calls bot",
+      "value": "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ 📵*",
+      "required": false
     },
     "AUTO_REACT": {
-      "description": "Put 'true' if you want the bot to auto react to messages. You can set up this later using .autoreact",
-      "required": false,
-      "value": "false"
+      "description": "Enable auto react",
+      "value": "false",
+      "required": false
     },
-    "ANTICALL": {
-      "description": "Make it 'true' if you want to automatically reject calls or 'block' to decline calls and block caller. You can set up this later using .anticall",
-      "required": false,
-      "value": "false"
-    },
-    "ANTICALL_MSG": {
-      "description": "Put Your own Anticall Message the bot will send after rejecting calls",
-      "required": false,
-      "value": "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*"
+    "OWNER_REACT": {
+      "description": "Owner messages auto react",
+      "value": "false",
+      "required": false
     },
     "BOT_NAME": {
-      "description": "You can edit this but maintain font style for uniformity. Use 'Fonts Type Keyboard' for styles.",
-      "required": false,
-      "value": "𝐋𝐄𝐎-𝐌𝐃 𝐁𝐎𝐓"
+      "description": "Bot name display",
+      "value": "𓆩ု᪳𝐒𝐓𝐀𝐑𝐊-𝐌𝐃ှ᪳𓆪",
+      "required": true
     },
-      "BOT_PIC": {
-      "description": "put here the bot Menu url if you don't have you can use this public url.",
-      "required": true,
-      "value": "https://files.catbox.moe/6ku0eo.jpg" 
-      },
-      
-    "PACK_NAME": {
-      "description": "You can enter your sticker pack name.",
-      "required": false,
-      "value": "𝅄˹𝐀ɭīī 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸"
+    "BOT_PIC": {
+      "description": "put Bot menu picture URL",
+      "value": "https://files.catbox.moe/w3k9sq.jpg",
+      "required": true
     },
-    "PREFIX": {
-      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
-      "required": true,
-      "value": "."
+    "WELCOME": {
+      "description": "Enable welcome messages",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_BLOCK": {
+      "description": "Block country codes (comma separated)",
+      "value": "333,799",
+      "required": false
+    },
+    "PRESENCE": {
+      "description": "Presence type (typing/recording/online/null)",
+      "value": "null",
+      "required": false
+    },
+    "TIME_ZONE": {
+      "description": "Your timezone",
+      "value": "Asia/Karachi",
+      "required": true
     }
   },
   "formation": {
@@ -144,4 +156,4 @@
       "url": "heroku/nodejs"
     }
   ]
-  }
+}
