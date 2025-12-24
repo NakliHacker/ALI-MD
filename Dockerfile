@@ -1,7 +1,7 @@
-FROM node:lts-buster
+FROM node:20
 WORKDIR /app
 COPY package*.json ./
-RUN npm install && npm install -g qrcode-terminal pm2
+RUN npm install
 COPY . .
 EXPOSE 3000
 CMD ["npm", "start"]
